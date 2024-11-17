@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Верстка сайта</title>
+</head>
+
+<body class="spring-theme">
+
+    <div class="wrapper">
+        <!-- === HEADER === -->
+        <header class="header">
+            <div class="header__bg">
+                <div class="container">
+                    <div class="header__top">
+                        <a class="header__logolink" href="/">
+                            <img class="header__logo" src="images/logo.svg" alt="logo">
+                        </a>
+
+                        <div class="header__end">
+                            <div class="header__item header__item--location">
+                                <img src="images/location.svg" alt="header icon">
+                                г. Таруса
+                            </div>
+
+                            <a class="header__item header__item--phone" href="tel:+88002223400">
+                                <img src="images/phone.svg" alt="header icon">
+                                8 800 222 34 00
+                            </a>
+
+                            <a class="header__circle header__circle--white getModal" href="#mobileMenu">
+                                <img src="images/header-btn.svg" alt="header btn">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__whole">
+                <div class="container">
+                    <div class="header__inner">
+                        <ul class="header__list">
+                            <li><a href="#">Коттеджи & номера</a></li>
+                            <li><a href="#">Цены & акции</a></li>
+                            <li><a href="#">Развлечения</a></li>
+                            <li><a href="#">Ресторан</a></li>
+                            <li><a href="#">Детям</a></li>
+                            <li><a href="#">банкеты</a></li>
+                            <li><a href="#">Пляж</a></li>
+                            <li><a href="#">контакты</a></li>
+                        </ul>
+
+                        <div class="header__action">
+                            <a class="btn btn--main" href="#">Бронирование</a>
+                            <a class="header__circle getModal" href="#mobileMenu">
+                                <img src="images/header-btn.svg" alt="header btn">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- ==== MAIN CONTENT ==== -->
+        <main class="main">
+            <!-- === OPENING === -->
+            <section class="opening" style="background-image: url(images/opening-2.webp);">
+                <div class="container">
+                    <div class="opening__main">
+                        <div class="opening__breadcrumbs">
+                            <a class="opening__link" href="#">Главная</a>
+                            <div class="opening__current">Развлечения и отдых</div>
+                        </div>
+                        <div class="opening__inner">
+                            <h1 class="opening__title">Развлечения и отдых</h1>
+                            <div class="opening__end">
+                                <a class="opening__down" href="#">
+                                    <img src="images/updown.svg" loading="lazy" alt="updown">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === REST === -->
+            <section class="rest spacing">
+                <div class="container">
+                    <div class="tabs tabs--two mini-mb">
+                        <a class="tabs__item active" href="#">Галерея 1</a>
+                        <a class="tabs__item" href="#">Галерея 2</a>
+                    </div>
+
+                    <select class="tabs__select mini-mb" name="tabs">
+                        <option value="tabs1">Галерея 1</option>
+                        <option value="tabs2">Галерея 2</option>
+                    </select>
+
+                    <div class="tabs__content active">
+                        <div class="tabs__wrapper">
+                            <div class="rest__inner">
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-1.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">мангалы и беседки</h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <p class="rest__text">Пример текста описания и цен. Около коттеджа площадка для
+                                            BBQ, столом и лавочками, мангал.</p>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-2.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">БанИ </h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <div class="rest__info">
+                                            <p class="rest__text">Пример текста описания и цен. Около коттеджа </p>
+                                            <a class="btn btn--main" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-2.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">БанИ </h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <div class="rest__info">
+                                            <p class="rest__text">Пример текста описания и цен. Около коттеджа </p>
+                                            <a class="btn btn--main" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-1.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">мангалы и беседки</h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <p class="rest__text">Пример текста описания и цен. Около коттеджа площадка для
+                                            BBQ, столом и лавочками, мангал.</p>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-2.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">БанИ </h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <div class="rest__info">
+                                            <p class="rest__text">Пример текста описания и цен. Около коттеджа </p>
+                                            <a class="btn btn--main" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-2.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">БанИ </h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <div class="rest__info">
+                                            <p class="rest__text">Пример текста описания и цен. Около коттеджа </p>
+                                            <a class="btn btn--main" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tabs__content">
+                        <div class="tabs__wrapper">
+                            <div class="rest__inner">
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-2.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">БанИ </h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <div class="rest__info">
+                                            <p class="rest__text">Пример текста описания и цен. Около коттеджа </p>
+                                            <a class="btn btn--main" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-2.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">БанИ </h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <div class="rest__info">
+                                            <p class="rest__text">Пример текста описания и цен. Около коттеджа </p>
+                                            <a class="btn btn--main" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-1.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">мангалы и беседки</h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <p class="rest__text">Пример текста описания и цен. Около коттеджа площадка для
+                                            BBQ, столом и лавочками, мангал.</p>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-2.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">БанИ </h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <div class="rest__info">
+                                            <p class="rest__text">Пример текста описания и цен. Около коттеджа </p>
+                                            <a class="btn btn--main" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="rest__item">
+                                    <div class="rest__view">
+                                        <img class="rest__img" src="images/rest-2.webp" loading="lazy" alt="rest img">
+                                        <h3 class="rest__name">БанИ </h3>
+                                    </div>
+
+                                    <div class="rest__content">
+                                        <div class="rest__info">
+                                            <p class="rest__text">Пример текста описания и цен. Около коттеджа </p>
+                                            <a class="btn btn--main" href="#">Подробнее</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- === FOOTER === -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__view">
+                        <a class="footer__logolink" href="/">
+                            <img class="footer__logo" src="images/footer-logo.svg" loading="lazy" alt="logo">
+                        </a>
+
+                        <div class="footer__links">
+                            <a class="footer__link" href="#">Реквизиты</a>
+                            <a class="footer__link" href="#">Поитика конфиденциальности</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__item">
+                        <h3 class="footer__title">НАВИГАЦИЯ</h3>
+                        <ul class="footer__list">
+                            <li><a href="#">Коттеджи & номера</a></li>
+                            <li><a href="#">Цены & акции</a></li>
+                            <li><a href="#">Развлечения</a></li>
+                            <li><a href="#">Ресторан</a></li>
+                            <li><a href="#">Детям</a></li>
+                            <li><a href="#">Банкеты</a></li>
+                            <li><a href="#">Пляж</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__item">
+                        <h3 class="footer__title">контакты</h3>
+                        <ul class="footer__list">
+                            <li><a href="tel:+78002223400">+7 800 222 34 00</a></li>
+                            <li><a href="mailto:serebvek@bk.ru">serebvek@bk.ru</a></li>
+                            <li>Подмосковье, г.Таруса Калужской области, ул. Маяковского, дом 5.</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__item">
+                        <h3 class="footer__title">Заказать обратный звонок</h3>
+                        <form class="form">
+                            <input type="text" name="fullname" placeholder="Ваше имя">
+                            <input type="tel" name="phone" placeholder="+7 (999) 999 99 99">
+                            <button class="btn btn--white" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- === MOBILE MENU === -->
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="mobile-menu__inner">
+            <div class="mobile-menu__head">
+                <a class="mobile-menu__logo" href="/">
+                    <img src="images/logo.svg" loading="lazy" alt="logo">
+                </a>
+                <button class="mobile-menu__close">
+                    <img src="images/x-white.svg" loading="lazy" alt="x icon">
+                </button>
+            </div>
+
+            <ul class="mobile-menu__list">
+                <li><a href="#">Коттеджи & номера</a></li>
+                <li><a href="#">Цены & акции</a></li>
+                <li><a href="#">Развлечения</a></li>
+                <li><a href="#">Ресторан</a></li>
+                <li><a href="#">Детям</a></li>
+                <li><a href="#">Мероприятия</a></li>
+                <li><a href="#">Карта территории</a></li>
+                <li><a href="#">Экскурсии</a></li>
+                <li><a href="#">Бани</a></li>
+                <li><a href="#">Рыбалка</a></li>
+                <li><a href="#">О доме отдыха</a></li>
+                <li><a href="#">Прокат и допуслуги</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">контакты</a></li>
+            </ul>
+
+            <a class="btn btn--white getModal" href="#">Отправить заявку</a>
+        </div>
+    </div>
+
+    <!-- === SCRIPTS === -->
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=fd996bf6-11fe-4079-a1e2-5c6efd7723af&lang=ru_RU"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script>
+        function checkMedia(x) {
+            if (x.matches) {
+                gsap.registerPlugin(ScrollTrigger);
+
+                gsap.to('.views__line--left .views__img', {
+                    scrollTrigger: {
+                        trigger: '.views',
+                        start: 'top top',
+                        end: 'bottom top',
+                        scrub: 1,
+                        markers: true,
+                        toggleActions: 'restart none none none',
+                    },
+                    x: '-100%',
+                });
+
+                gsap.to('.views__line--right .views__img', {
+                    scrollTrigger: {
+                        trigger: '.views',
+                        start: 'top top',
+                        end: 'bottom top',
+                        scrub: 1,// Use markers for debugging, remove for production
+                        toggleActions: 'restart none none none',
+                    },
+                    x: '100%',
+                });
+            } else {
+                gsap.set('.views__line--left .views__img', { x: '-20%' });
+                gsap.set('.views__line--right .views__img', { x: '-20%' });
+            }
+        }
+
+        // Initialize with media query
+        let x = window.matchMedia("(min-width: 1200px)");
+        checkMedia(x);
+        x.addListener(checkMedia);
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

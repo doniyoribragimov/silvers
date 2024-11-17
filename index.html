@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Верстка сайта</title>
+</head>
+
+<body class="spring-theme">
+
+    <div class="wrapper">
+        <!-- === HEADER === -->
+        <header class="header">
+            <div class="header__bg">
+                <div class="container">
+                    <div class="header__top">
+                        <a class="header__logolink" href="/">
+                            <img class="header__logo" src="images/logo.svg" alt="logo">
+                        </a>
+
+                        <div class="header__end">
+                            <div class="header__item header__item--location">
+                                <img src="images/location.svg" alt="header icon">
+                                г. Таруса
+                            </div>
+
+                            <a class="header__item header__item--phone" href="tel:+88002223400">
+                                <img src="images/phone.svg" alt="header icon">
+                                8 800 222 34 00
+                            </a>
+
+                            <a class="header__circle header__circle--white getModal" href="#mobileMenu">
+                                <img src="images/header-btn.svg" alt="header btn">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="header__whole">
+                <div class="container">
+                    <div class="header__inner">
+                        <ul class="header__list">
+                            <li><a href="#">Коттеджи & номера</a></li>
+                            <li><a href="#">Цены & акции</a></li>
+                            <li><a href="#">Развлечения</a></li>
+                            <li><a href="#">Ресторан</a></li>
+                            <li><a href="#">Детям</a></li>
+                            <li><a href="#">банкеты</a></li>
+                            <li><a href="#">Пляж</a></li>
+                            <li><a href="#">контакты</a></li>
+                        </ul>
+
+                        <div class="header__action">
+                            <a class="btn btn--main" href="#">Бронирование</a>
+                            <a class="header__circle getModal" href="#mobileMenu">
+                                <img src="images/header-btn.svg" alt="header btn">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- ==== MAIN CONTENT ==== -->
+        <main class="main">
+            <!-- === WELCOME === -->
+            <section class="welcome">
+                <div class="welcome__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="welcome__item" style="background-image: url(images/welcome-1.webp);">
+                                <div class="container">
+                                    <div class="welcome__inner">
+                                        <h1 class="welcome__title">
+                                            Дом отдыха <br>
+                                            Серебряный Век
+                                        </h1>
+                                        <div class="welcome__stars">
+                                            <img src="images/star.svg" alt="star icon">
+                                            <img src="images/star.svg" alt="star icon">
+                                            <img src="images/star.svg" alt="star icon">
+                                            <img src="images/star.svg" alt="star icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="welcome__item" style="background-image: url(images/welcome-2.webp);">
+                                <div class="container">
+                                    <div class="welcome__inner">
+                                        <h1 class="welcome__title">
+                                            Дом отдыха <br>
+                                            Lorem ipsum dolor sit amet.
+                                        </h1>
+                                        <div class="welcome__stars">
+                                            <img src="images/star.svg" alt="star icon">
+                                            <img src="images/star.svg" alt="star icon">
+                                            <img src="images/star.svg" alt="star icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="welcome__item" style="background-image: url(images/welcome-3.webp);">
+                                <div class="container">
+                                    <div class="welcome__inner">
+                                        <h1 class="welcome__title">
+                                            Lorem ipsum dolor sit amet.
+                                        </h1>
+                                        <div class="welcome__stars">
+                                            <img src="images/star.svg" alt="star icon">
+                                            <img src="images/star.svg" alt="star icon">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="welcome__arrows">
+                            <button class="welcome__arrow welcome__arrow--left">
+                                <img src="images/arrow-left.svg" alt="arrow icon">
+                            </button>
+
+                            <button class="welcome__arrow welcome__arrow--right">
+                                <img src="images/arrow-right.svg" alt="arrow icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === REQUEST === -->
+            <section class="request">
+                <div class="container">
+                    <form class="request__inner">
+                        <div class="request__item">
+                            <div class="request__left">
+                                <div class="request__top">Заезд</div>
+                                <div class="request__value">09.04.2024</div>
+                            </div>
+
+                            <button class="request__trigger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M19 3H18V2C18 1.73478 17.8946 1.48043 17.7071 1.29289C17.5196 1.10536 17.2652 1 17 1H16C15.7348 1 15.4804 1.10536 15.2929 1.29289C15.1054 1.48043 15 1.73478 15 2V3H9V2C9 1.73478 8.89464 1.48043 8.70711 1.29289C8.51957 1.10536 8.26522 1 8 1H7C6.73478 1 6.48043 1.10536 6.29289 1.29289C6.10536 1.48043 6 1.73478 6 2V3H5C4.46957 3 3.96086 3.21071 3.58579 3.58579C3.21071 3.96086 3 4.46957 3 5V19C3 19.5304 3.21071 20.0391 3.58579 20.4142C3.96086 20.7893 4.46957 21 5 21H19C19.5304 21 20.0391 20.7893 20.4142 20.4142C20.7893 20.0391 21 19.5304 21 19V5C21 4.46957 20.7893 3.96086 20.4142 3.58579C20.0391 3.21071 19.5304 3 19 3ZM9 19H5V16H9V19ZM9 11H5V8H9V11ZM14 19H10V16H14V19ZM14 15H10V12H14V15ZM14 11H10V8H14V11ZM19 19H15V16H19V19ZM19 15H15V12H19V15ZM19 11H15V8H19V11Z"
+                                        fill="#343E18" />
+                                </svg>
+
+                            </button>
+                        </div>
+
+                        <div class="request__item">
+                            <div class="request__left">
+                                <div class="request__top">Выезд</div>
+                                <div class="request__value">10.04.2024</div>
+                            </div>
+
+                            <button class="request__trigger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M19 3H18V2C18 1.73478 17.8946 1.48043 17.7071 1.29289C17.5196 1.10536 17.2652 1 17 1H16C15.7348 1 15.4804 1.10536 15.2929 1.29289C15.1054 1.48043 15 1.73478 15 2V3H9V2C9 1.73478 8.89464 1.48043 8.70711 1.29289C8.51957 1.10536 8.26522 1 8 1H7C6.73478 1 6.48043 1.10536 6.29289 1.29289C6.10536 1.48043 6 1.73478 6 2V3H5C4.46957 3 3.96086 3.21071 3.58579 3.58579C3.21071 3.96086 3 4.46957 3 5V19C3 19.5304 3.21071 20.0391 3.58579 20.4142C3.96086 20.7893 4.46957 21 5 21H19C19.5304 21 20.0391 20.7893 20.4142 20.4142C20.7893 20.0391 21 19.5304 21 19V5C21 4.46957 20.7893 3.96086 20.4142 3.58579C20.0391 3.21071 19.5304 3 19 3ZM9 19H5V16H9V19ZM9 11H5V8H9V11ZM14 19H10V16H14V19ZM14 15H10V12H14V15ZM14 11H10V8H14V11ZM19 19H15V16H19V19ZM19 15H15V12H19V15ZM19 11H15V8H19V11Z"
+                                        fill="#343E18" />
+                                </svg>
+
+                            </button>
+                        </div>
+
+                        <div class="request__item">
+                            <div class="request__left">
+                                <div class="request__top">Гости</div>
+                                <div class="request__value">2 взрослых, 0 детей</div>
+                            </div>
+
+                            <button class="request__trigger">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13.09 21H10.91C5.45 21 5 19.85 5 19.85C5.00266 19.1723 5.10372 18.4986 5.3 17.85C5.72 16.85 5.99 16.43 7.79 15.77C9.59 15.11 10.21 14.21 10.3 13.89V12.68C9.22865 11.531 8.61349 10.0304 8.57 8.46C8.57 5.49 10.27 4 12 4C13.73 4 15.43 5.53 15.43 8.46C15.3865 10.0304 14.7714 11.531 13.7 12.68V13.85C13.78 14.17 14.44 15.08 16.21 15.73C17.98 16.38 18.28 16.84 18.7 17.81C18.8963 18.4586 18.9973 19.1323 19 19.81C19 19.81 18.52 21 13.09 21Z" fill="#343E18"/>
+                                    </svg>
+                                    
+                            </button>
+                        </div>
+
+                        <button class="btn btn--main" type="submit">Найти номер</button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- === FOREST === -->
+            <section class="forest spacing">
+                <div class="container">
+                    <div class="forest__top mini-mb">
+                        <img class="forest__review" src="images/review.webp" loading="lazy" alt="forest review">
+                        <div class="head">
+                            <h2 class="title">
+                                <span>20 гектаров леса,</span> <br>
+                                река Ока и уют
+                            </h2>
+                            <p class="text">Дом отдыха Серебрянный Век расположен в 120 км к югу от Москвы, в городе
+                                Таруса, на берегу Оки, в заповедном лесном массиве, рядом с песчаным пляжем</p>
+                        </div>
+
+                    </div>
+
+                    <a class="forest__video"
+                        href="https://www.youtube.com/watch?v=ve9Bc8msZVk&pp=ygUd0YHQtdGA0LXQsdGA0LDQvdC90YvQuSDQstC10Lo%3D"
+                        data-fslightbox="forest">
+                        <img class="forest__preview" src="images/forest-preview.webp" loading="lazy"
+                            alt="forest preview">
+                    </a>
+                </div>
+            </section>
+
+            <!-- === HOMES === -->
+            <section class="homes spacing">
+                <div class="container">
+                    <div class="head head--center mb">
+                        <h2 class="title">
+                            В начале прошлого века <br>
+                            здесь находилась <br>
+                            <span>дача семьи Цветаевых</span>
+                        </h2>
+                        <div class="homes__bottom">
+                            <p class="text">Сегодня это место, где можно забыть о суете города в кругу друзей и семьи,
+                                насладиться общением с природой и интересно провести время.</p>
+                            <a class="btn btn--outline" href="#">О Тарусе</a>
+                        </div>
+                    </div>
+
+                    <div class="homes__items">
+                        <div class="homes__item">
+                            <img class="homes__img" src="images/homes-1.webp" loading="lazy" alt="homes img">
+                            <div class="homes__content">
+                                <div class="homes__head">
+                                    <h3 class="homes__number">38</h3>
+                                    <div class="homes__info">
+                                        <h3 class="homes__title">скандинавских коттеджей с панорамными окнами</h3>
+                                        <div class="homes__people">2-6 гостей</div>
+                                    </div>
+                                </div>
+
+                                <a class="btn btn--main" href="#">Подробнее</a>
+                            </div>
+                        </div>
+
+                        <div class="homes__item">
+                            <img class="homes__img" src="images/homes-2.webp" loading="lazy" alt="homes img">
+                            <div class="homes__content">
+                                <div class="homes__head">
+                                    <h3 class="homes__number">11</h3>
+                                    <div class="homes__info">
+                                        <h3 class="homes__title">Рубленных из кедра
+                                            и классических коттеджей</h3>
+                                        <div class="homes__people">2-14 гостей</div>
+                                    </div>
+                                </div>
+
+                                <a class="btn btn--main" href="#">Подробнее</a>
+                            </div>
+                        </div>
+
+                        <div class="homes__item">
+                            <img class="homes__img" src="images/homes-3.webp" loading="lazy" alt="homes img">
+                            <div class="homes__content">
+                                <div class="homes__head">
+                                    <h3 class="homes__number">23</h3>
+                                    <div class="homes__info">
+                                        <h3 class="homes__title">номера отеля в сердце леса</h3>
+                                        <div class="homes__people">1-4 гостя</div>
+                                    </div>
+                                </div>
+
+                                <a class="btn btn--main" href="#">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === OFFER === -->
+            <section class="offer spacing">
+                <div class="container">
+                    <h2 class="title text-center mb"><span>специальные</span> предложения</h2>
+                </div>
+                <div class="offer__slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a class="offer__item" href="#">
+                                <img class="offer__img" src="images/offer.webp" loading="lazy" alt="offer img">
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Для больших компаний в будни</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a class="offer__item" href="#">
+                                <img class="offer__img" src="images/offer.webp" loading="lazy" alt="offer img">
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Для больших компаний в будни</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a class="offer__item" href="#">
+                                <img class="offer__img" src="images/offer.webp" loading="lazy" alt="offer img">
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Для больших компаний в будни</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a class="offer__item" href="#">
+                                <img class="offer__img" src="images/offer.webp" loading="lazy" alt="offer img">
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Для больших компаний в будни</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a class="offer__item" href="#">
+                                <img class="offer__img" src="images/offer.webp" loading="lazy" alt="offer img">
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Для больших компаний в будни</h3>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a class="offer__item" href="#">
+                                <img class="offer__img" src="images/offer.webp" loading="lazy" alt="offer img">
+                                <div class="offer__content">
+                                    <h3 class="offer__title">Для больших компаний в будни</h3>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <button class="arrow arrow--white arrow--left">
+                        <img src="images/arrow-lefts.svg" loading="lazy" alt="arrow icon">
+                    </button>
+
+                    <button class="arrow arrow--white arrow--right">
+                        <img src="images/arrow-rights.svg" loading="lazy" alt="arrow icon">
+                    </button>
+
+                </div>
+                <div class="container">
+                    <a class="btn btn--main btn--center mt" href="#">Все предложения</a>
+                </div>
+            </section>
+
+            <!-- === RECREATION === -->
+            <section class="recreation spacing">
+                <div class="container">
+                    <div class="head head--center mb">
+                        <h2 class="title">Развлечения и отдых</h2>
+                        <p class="text">Сегодня это место, где можно забыть о суете города в компании друзей и семьи,
+                            насладиться общением с природой и интересно провести время.</p>
+                        <a class="btn btn--main" href="#">Подробнее о развлечениях</a>
+                    </div>
+                </div>
+
+                <div class="recreation__main">
+                    <div class="container">
+                        <div class="recreation__inner">
+                            <a class="recreation__item" href="#"
+                                style="background-image: url(images/recreation-1.webp);">
+                                <h3 class="recreation__name">мангалы и беседки</h3>
+                            </a>
+
+                            <a class="recreation__item" href="#"
+                                style="background-image: url(images/recreation-2.webp);">
+                                <h3 class="recreation__name">Баня</h3>
+                            </a>
+
+                            <a class="recreation__item" href="#"
+                                style="background-image: url(images/recreation-3.webp);">
+                                <h3 class="recreation__name">развлекательные программы</h3>
+                            </a>
+
+                            <a class="recreation__item" href="#"
+                                style="background-image: url(images/recreation-5.webp);">
+                                <h3 class="recreation__name">территория для прогулок</h3>
+                            </a>
+
+                            <a class="recreation__item" href="#"
+                                style="background-image: url(images/recreation-4.webp);">
+                                <h3 class="recreation__name">детский центр 500м2</h3>
+                            </a>
+
+
+                            <a class="recreation__item" href="#"
+                                style="background-image: url(images/recreation-6.webp);">
+                                <h3 class="recreation__name">мини-Зоопарк</h3>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === RESTRAUNT === -->
+            <section class="restraunt spacing">
+                <div class="container">
+                    <div class="restraunt__head mb">
+                        <div class="restraunt__left">
+                            <h2 class="title"><span>Ресторан</span> и веранда</h2>
+                            <p class="text">Приготовлено с любовью и заботой. Русская и европейская кухня A La Carte,
+                                шведский стол, фитобар и диетический стол</p>
+                        </div>
+
+                        <a class="btn btn--main" href="#">Подробнее о ресторане</a>
+                    </div>
+
+                    <div class="restraunt__inner">
+                        <a class="restraunt__item" href="#" style="background-image: url(images/restraunt-1.webp);">
+                            <h3 class="restraunt__name">Шведский стол</h3>
+                        </a>
+
+                        <a class="restraunt__item" href="#" style="background-image: url(images/restraunt-2.webp);">
+                            <h3 class="restraunt__name">Ресторан <br>
+                                «a la carte» и бар</h3>
+                        </a>
+
+                        <a class="restraunt__item" href="#" style="background-image: url(images/restraunt-3.webp);">
+                            <h3 class="restraunt__name">Фито-бар</h3>
+                        </a>
+
+                        <a class="restraunt__item" href="#" style="background-image: url(images/restraunt-4.webp);">
+                            <h3 class="restraunt__name">Летняя веранда</h3>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- === CHILDREN === -->
+            <section class="children spacing">
+                <div class="container">
+                    <div class="head head--center mb">
+                        <h2 class="title">Детям</h2>
+                        <p class="text">Яркий отдых для детей и их родителей. Развитие, общение, впечатления.</p>
+                    </div>
+
+                    <div class="children__inner">
+                        <div class="children__box" style="background-image: url(images/children-bg-1.webp);">
+                            <h4 class="children__number">01</h4>
+                            <h3 class="children__name">детский центр</h3>
+                            <a class="children__link" href="#">
+                                <img src="images/arrow-right.svg" loading="lazy" alt="arrow icon">
+                            </a>
+                        </div>
+
+                        <div class="children__box" style="background-image: url(images/children-bg-2.webp);">
+                            <h4 class="children__number">02</h4>
+                            <h3 class="children__name">мини-зоопарк</h3>
+                            <a class="children__link" href="#">
+                                <img src="images/arrow-right.svg" loading="lazy" alt="arrow icon">
+                            </a>
+                        </div>
+
+                        <div class="children__box" style="background-image: url(images/children-bg-3.webp);">
+                            <h4 class="children__number">03</h4>
+                            <h3 class="children__name">Дни Рождения
+                                и детские праздники </h3>
+                            <a class="children__link" href="#">
+                                <img src="images/arrow-right.svg" loading="lazy" alt="arrow icon">
+                            </a>
+                        </div>
+
+                        <div class="children__box" style="background-image: url(images/children-bg-4.webp);">
+                            <h4 class="children__number">04</h4>
+                            <h3 class="children__name">Расписание анимации</h3>
+                            <a class="children__link" href="#">
+                                <img src="images/arrow-right.svg" loading="lazy" alt="arrow icon">
+                            </a>
+                        </div>
+
+                        <img class="children__img" src="images/children.webp" loading="lazy" alt="children img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- === CONFERENCE === -->
+            <section class="conference spacing">
+                <div class="container">
+                    <h2 class="title text-center mini-mb"><span>Банкеты</span> и конференции</h2>
+                    <div class="conference__inner mini-mb">
+                        <div class="conference__item" style="background-image: url(images/conference-1.webp);">
+                            <h3 class="conference__name">Юбилеи и дни рождения</h3>
+                            <a class="conference__link" href="#">Подробнее</a>
+                        </div>
+
+                        <div class="conference__item" style="background-image: url(images/conference-2.webp);">
+                            <h3 class="conference__name">⁠Корпорантам</h3>
+                            <a class="conference__link" href="#">Подробнее</a>
+                        </div>
+
+                        <div class="conference__item" style="background-image: url(images/conference-3.webp);">
+                            <h3 class="conference__name">Свадьбы</h3>
+                            <a class="conference__link" href="#">Подробнее</a>
+                        </div>
+                    </div>
+                    <img class="conference__img" src="images/conference.webp" loading="lazy" alt="conference img">
+                </div>
+            </section>
+
+            <!-- === RESTRAUNT === -->
+            <section class="restraunt spacing">
+                <div class="container">
+                    <div class="head head--center mb">
+                        <h2 class="title">отдых <span>в тарусе</span></h2>
+                        <p class="text">Город вдохновения поэтов и художников. Природный амфитеатр с видом на Оку.</p>
+                    </div>
+
+                    <div class="restraunt__inner">
+                        <a class="restraunt__item" href="#" style="background-image: url(images/restraunt-5.webp);">
+                            <h3 class="restraunt__name">Экскурсии дома отдыха</h3>
+                        </a>
+
+                        <a class="restraunt__item" href="#" style="background-image: url(images/restraunt-6.webp);">
+                            <h3 class="restraunt__name">городские экскурсии</h3>
+                        </a>
+
+                        <a class="restraunt__item" href="#" style="background-image: url(images/restraunt-7.webp);">
+                            <h3 class="restraunt__name">События в Тарусе</h3>
+                        </a>
+
+                        <a class="restraunt__item" href="#" style="background-image: url(images/restraunt-8.webp);">
+                            <h3 class="restraunt__name">идеи отдыха на выходные в тарусе</h3>
+                        </a>
+                    </div>
+
+                    <a class="btn btn--main btn--center mt" href="#">Подробнее</a>
+                </div>
+            </section>
+
+            <!-- === VIEWS === -->
+            <section class="views spacing">
+                <div class="views__inner">
+                    <div class="views__line views__line--left">
+                        <img class="views__img" src="images/views-1.webp" loading="lazy" alt="views img">
+                        <img class="views__img" src="images/views-2.webp" loading="lazy" alt="views img">
+                        <img class="views__img" src="images/views-3.webp" loading="lazy" alt="views img">
+                    </div>
+
+                    <div class="views__line views__line--right">
+                        <img class="views__img" src="images/views-4.webp" loading="lazy" alt="views img">
+                        <img class="views__img" src="images/views-5.webp" loading="lazy" alt="views img">
+                        <img class="views__img" src="images/views-6.webp" loading="lazy" alt="views img">
+                    </div>
+                </div>
+            </section>
+
+            <!-- === REVIEWS === -->
+            <section class="reviews spacing">
+                <div class="container">
+                    <h2 class="title title--center mb"><span>отзывы</span> о «серебряном веке»</h2>
+
+                </div>
+
+                <div class="reviews__main">
+                    <div class="container">
+                        <div class="reviews__slider swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="reviews__item">
+                                        <div class="reviews__top">
+                                            <img class="reviews__avi" src="images/reviews.webp" loading="lazy"
+                                                alt="reviews img">
+                                            <h3 class="reviews__name">Анастасия Нассонова</h3>
+                                        </div>
+
+                                        <p class="reviews__text">Хочу выразить свою благодарность Ждановой Екатерине за
+                                            то,
+                                            что она даёт нам много новых и полезных знаний. Внимательна к нам,
+                                            отзывчивая и
+                                            понимающая. Всегда терпелива и позитивна. Наши нынешние достижения-это наша
+                                            с
+                                            Вами общая заслуга. Вы лучшая!</p>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews__item">
+                                        <div class="reviews__top">
+                                            <img class="reviews__avi" src="images/reviews.webp" loading="lazy"
+                                                alt="reviews img">
+                                            <h3 class="reviews__name">Анастасия</h3>
+                                        </div>
+
+                                        <p class="reviews__text">Хочу выразить свою благодарность Ждановой Екатерине за
+                                            то,
+                                            что она даёт нам много новых и полезных знаний. Внимательна к нам,
+                                            отзывчивая и
+                                            понимающая. Всегда терпелива и позитивна. Наши нынешние достижения-это наша
+                                            с
+                                            Вами общая заслуга. Вы лучшая!</p>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews__item">
+                                        <div class="reviews__top">
+                                            <img class="reviews__avi" src="images/reviews.webp" loading="lazy"
+                                                alt="reviews img">
+                                            <h3 class="reviews__name">Анастасия Нассонова</h3>
+                                        </div>
+
+                                        <p class="reviews__text">Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit.
+                                            Nostrum dolor soluta aspernatur molestias porro pariatur animi dolore minima
+                                            delectus culpa debitis iure dolores blanditiis aliquam, accusamus voluptates
+                                            similique error eos.</p>
+                                    </div>
+                                </div>
+
+                                <div class="swiper-slide">
+                                    <div class="reviews__item">
+                                        <div class="reviews__top">
+                                            <img class="reviews__avi" src="images/reviews.webp" loading="lazy"
+                                                alt="reviews img">
+                                            <h3 class="reviews__name">Анастасия Нассонова</h3>
+                                        </div>
+
+                                        <p class="reviews__text">Хочу выразить свою благодарность Ждановой Екатерине за
+                                            то,
+                                            что она даёт нам много новых и полезных знаний. Внимательна к нам,
+                                            отзывчивая и
+                                            понимающая. Всегда терпелива и позитивна. Наши нынешние достижения-это наша
+                                            с
+                                            Вами общая заслуга. Вы лучшая!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="arrow arrow--left">
+                                <img src="images/arrow-lefts-white.svg" loading="lazy" alt="arrow icon">
+                            </button>
+
+                            <button class="arrow arrow--right">
+                                <img src="images/arrow-right-white.svg" loading="lazy" alt="arrow icon">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- === FOOTER === -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__view">
+                        <a class="footer__logolink" href="/">
+                            <img class="footer__logo" src="images/footer-logo.svg" loading="lazy" alt="logo">
+                        </a>
+
+                        <div class="footer__links">
+                            <a class="footer__link" href="#">Реквизиты</a>
+                            <a class="footer__link" href="#">Поитика конфиденциальности</a>
+                        </div>
+                    </div>
+
+                    <div class="footer__item">
+                        <h3 class="footer__title">НАВИГАЦИЯ</h3>
+                        <ul class="footer__list">
+                            <li><a href="#">Коттеджи & номера</a></li>
+                            <li><a href="#">Цены & акции</a></li>
+                            <li><a href="#">Развлечения</a></li>
+                            <li><a href="#">Ресторан</a></li>
+                            <li><a href="#">Детям</a></li>
+                            <li><a href="#">Банкеты</a></li>
+                            <li><a href="#">Пляж</a></li>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__item">
+                        <h3 class="footer__title">контакты</h3>
+                        <ul class="footer__list">
+                            <li><a href="tel:+78002223400">+7 800 222 34 00</a></li>
+                            <li><a href="mailto:serebvek@bk.ru">serebvek@bk.ru</a></li>
+                            <li>Подмосковье, г.Таруса Калужской области, ул. Маяковского, дом 5.</li>
+                        </ul>
+                    </div>
+
+                    <div class="footer__item">
+                        <h3 class="footer__title">Заказать обратный звонок</h3>
+                        <form class="form">
+                            <input type="text" name="fullname" placeholder="Ваше имя">
+                            <input type="tel" name="phone" placeholder="+7 (999) 999 99 99">
+                            <button class="btn btn--white" type="submit">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- === MOBILE MENU === -->
+    <div id="mobileMenu" class="mobile-menu">
+        <div class="mobile-menu__inner">
+            <div class="mobile-menu__head">
+                <a class="mobile-menu__logo" href="/">
+                    <img src="images/logo.svg" loading="lazy" alt="logo">
+                </a>
+                <button class="mobile-menu__close">
+                    <img src="images/x-white.svg" loading="lazy" alt="x icon">
+                </button>
+            </div>
+
+            <ul class="mobile-menu__list">
+                <li><a href="#">Коттеджи & номера</a></li>
+                <li><a href="#">Цены & акции</a></li>
+                <li><a href="#">Развлечения</a></li>
+                <li><a href="#">Ресторан</a></li>
+                <li><a href="#">Детям</a></li>
+                <li><a href="#">Мероприятия</a></li>
+                <li><a href="#">Карта территории</a></li>
+                <li><a href="#">Экскурсии</a></li>
+                <li><a href="#">Бани</a></li>
+                <li><a href="#">Рыбалка</a></li>
+                <li><a href="#">О доме отдыха</a></li>
+                <li><a href="#">Прокат и допуслуги</a></li>
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">контакты</a></li>
+            </ul>
+
+            <a class="btn btn--white getModal" href="#">Отправить заявку</a>
+        </div>
+    </div>
+
+    <!-- === SCRIPTS === -->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <script>
+        function checkMedia(x) {
+            if (x.matches) {
+                gsap.registerPlugin(ScrollTrigger);
+
+                gsap.to('.views__line--left .views__img', {
+                    scrollTrigger: {
+                        trigger: '.views',
+                        start: 'top top',
+                        end: 'bottom top',
+                        scrub: 1,
+                        markers: true,
+                        toggleActions: 'restart none none none',
+                    },
+                    x: '-100%',
+                });
+
+                gsap.to('.views__line--right .views__img', {
+                    scrollTrigger: {
+                        trigger: '.views',
+                        start: 'top top',
+                        end: 'bottom top',
+                        scrub: 1,// Use markers for debugging, remove for production
+                        toggleActions: 'restart none none none',
+                    },
+                    x: '100%',
+                });
+            } else {
+                gsap.set('.views__line--left .views__img', { x: '-20%' });
+                gsap.set('.views__line--right .views__img', { x: '-20%' });
+            }
+        }
+
+        // Initialize with media query
+        let x = window.matchMedia("(min-width: 1200px)");
+        checkMedia(x);
+        x.addListener(checkMedia);
+    </script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
